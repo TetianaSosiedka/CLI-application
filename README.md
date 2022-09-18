@@ -1,4 +1,4 @@
-Create CLI applications: reading, get, add and remove contacts from json file.
+Create CLI applications(Node JS): reading, get, add and remove contacts from json file.
 
 Used modules: fs, pass, commander.
 
