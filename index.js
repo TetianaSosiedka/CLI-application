@@ -44,10 +44,6 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   }
 };
 
-invokeAction(argv);
-
-//{
-//   name: "Tetiana Sosiedka",
-//   email: "tasha.sosedka@gmail.com",
-//   phone: "(068) 961-1240",
-// }
+(async () => {
+  await invokeAction(argv);
+})();
